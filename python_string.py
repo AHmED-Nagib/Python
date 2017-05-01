@@ -39,7 +39,7 @@ print 'ahmed nagib mohmed'.split(" "),"split"
 print 'ahmed \n nagib mohmed'.splitlines(),"splitlines"
 print string.join('ahmed nagib mohmed'.split(" "),','),"split"
 print 'ahmed nagib mohmed'.center(50,'a'),"center"
-print 'ahmed nagib mohmed'.center(width=50,fillchar='a'),"center"
+# print 'ahmed nagib mohmed'.center(width=50,fillchar='a'),"center"
 print string.zfill('ahmed nagib mohmed', 50),"zfill"
 print 'ahmed nagib mohmed'.endswith('mohmed'),"endswith"
 #what is suffix ?
