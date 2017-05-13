@@ -28,8 +28,8 @@ class Shape1(object):
         self.height1 = 0
 
     def fn(self):
-        print "Shape1"
         self.height1 = 5
+        return 'shape1'
 
 
 class Shape2(object):
@@ -38,11 +38,11 @@ class Shape2(object):
         self.height2 = 0
 
     def fn(self):
-        print "Shape2"
         self.height2 = 5
+        return "shape2"
 
 
-class Shape3(Shape1, Shape2):
+class Shape3(Shape2, Shape1):
     pass
 
 
