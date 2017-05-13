@@ -51,7 +51,5 @@ print shape1.fn()
 
 
 def fun_input():
-    x = raw_input("please say something ")
+    x = raw_input("please say something")
     print x
-
-fun_input()
