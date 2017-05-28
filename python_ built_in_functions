@@ -1,0 +1,60 @@
+import math
+import itertools
+
+print abs(2)
+print abs(-2)
+print abs(math.sqrt(2))
+##################################
+x_any = []
+y_any = [1, 2, 3]
+print any(x_any), 'any(x_any)'
+print any(y_any), 'any(y_any)'
+print any(xx > 5 for xx in y_any), 'any(xx > 5 for xx in y_any)'
+print any(xx < 5 for xx in y_any), 'any(xx < 5 for xx in y_any)'
+##################################
+x_any = []
+y_any = [1, 2, 3]
+print all(x_any), 'all(x_any)'
+print all(y_any), 'all(y_any)'
+print all(xx > 5 for xx in y_any), 'all(xx > 5 for xx in y_any)'
+print all(xx < 5 for xx in y_any), 'all(xx < 5 for xx in y_any)'
+##################################
+print bin(10), 'bin(10)'
+print bin(3), 'bin(10)'
+##################################
+x_bool = 5
+xx_bool = 0
+xxx_bool = []
+xxxx_bool = [1, 2]
+print bool(x_bool), 'bool(x_bool)'
+print bool(xx_bool), 'bool(xx_bool)'
+print bool(xxx_bool), 'bool(xxx_bool)'
+print bool(xxxx_bool), 'bool(xxxx_bool)'
+##################################
+print chr(97), 'chr(97)'
+
+
+##################################
+class cls1(object):
+    def __init__(self, name):
+        self.name = name
+
+    @classmethod
+    def produce(self):
+        return "@classmethod"
+
+    def produce2(self):
+        return "@classmethod"
+
+
+x_classmethod = cls1.produce()
+
+print x_classmethod, 'x_classmethod'
+##################################
+x_cmp = 1
+y_cmp = 2
+z_cmp = 2
+print cmp(x_cmp, y_cmp), '(x_cmp, y_cmp)'
+print cmp(y_cmp, x_cmp), '(y_cmp, x_cmp)'
+print cmp(y_cmp, z_cmp), '(y_cmp, z_cmp)'
+##################################
