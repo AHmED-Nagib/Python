@@ -1,5 +1,6 @@
 l1 = [1, 2, 3, 4, 5]
 l2 = [6, 7, 8, 9, 10]
+l3 = [6, 7, 8, 7, 10]
 l1.append('6')
 print l1, "append"
 l1.extend(l2)
@@ -12,6 +13,8 @@ l1.pop(5)
 print l1, "pop"
 index1 = l1.index(10)
 print index1, "index"
+index2 = l3.index(7,2)
+print index2, "index2"
 count1 = l1.count(2)
 print count1, "count"
 l1.sort()
